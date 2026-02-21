@@ -1,0 +1,18 @@
+{
+  "name": "مَلاذ",
+  "short_name": "مَلاذ",
+  "description": "تطبيق مَلاذ — استجِرْ بالله واسمع آيات القرآن الكريم.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#0f2027",
+  "theme_color": "#0f2027",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "192x192 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

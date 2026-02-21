@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <!-- Dark gradient background -->
+    <defs>
+        <radialGradient id="bg" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#2c5364"/>
+            <stop offset="100%" stop-color="#0f2027"/>
+        </radialGradient>
+        <linearGradient id="btn" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#2b5876"/>
+            <stop offset="100%" stop-color="#4e4376"/>
+        </linearGradient>
+    </defs>
+    
+    <rect width="512" height="512" fill="url(#bg)" rx="100"/>
+    <circle cx="256" cy="256" r="180" fill="url(#btn)" stroke="#1e3c50" stroke-width="15"/>
+    
+    <!-- Heart shape inside the button as a spiritual symbol -->
+    <path d="M256,360 C256,360 140,260 140,190 C140,140 180,110 220,130 C240,140 256,170 256,170 C256,170 272,140 292,130 C332,110 372,140 372,190 C372,260 256,360 256,360 Z" fill="#ffffff" opacity="0.9"/>
+</svg>
